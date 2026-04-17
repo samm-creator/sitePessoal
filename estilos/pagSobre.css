@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    border:0;
+}
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+h2{
+    color:#333;
+    margin-bottom:10px;
+}
+
+.perfil{
+    position:relative;
+    margin-bottom:40px;
+}
+
+.perfil p{
+    max-width:600px;
+}
+
+#destaque header{
+    display:inline-block;
+    background: linear-gradient(45deg,#ffd700,#ffcc00);
+    padding:4px 10px;
+    border-radius:15px;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+/* Habilidades */
+
+section{
+    float:left;
+    width:70%;
+    margin-top:0;
+}
+
+section ul{
+    margin-top:10px;
+    padding-left:0;
+    text-align:center;/* centralizar o conteúdo */
+}
+
+section ul li{
+    list-style:square;
+    list-style-position:inside; /* mantém o marcador junto ao texto */
+}
+
+section ul li:hover{
+    color:#008000;
+    transform:translateX(5px);
+    cursor:pointer;
+}
+
+aside{
+    float:right;
+    width:30%;
+    background-color: #eee;
+    padding:10px;
+    border-radius:8px;
+    margin-top:0;
+}
+
+footer{
+    clear:both;
+}
